@@ -1,0 +1,88 @@
+body {
+    background-color: #0c1022 !important;
+    padding-top: 80px ;
+}
+.item {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-top: 100px;
+    transition: all 1s;
+    border-radius: 10px;
+    border-left: solid #d400d4 5px !important;
+    border-right: solid #00ccff 5px !important;
+    border-top:  solid #d400d4 5px !important;
+    border-bottom:  solid #00ccff 5px !important;
+    text-align: center !important;
+}
+.item:hover { 
+    transform: scale(1.010) skewX(1deg);
+    box-shadow: #00ccff 5px 5px 10px , #d400d4 -5px -5px 10px;
+}
+h1 {
+    font-size: 100px !important;
+    color: #d400d4 !important;
+    font-weight: 800 !important;
+    margin-bottom: 40px !important;
+    text-shadow: #00ccff 2px 2px 4px;
+}
+.p1 {
+    color: #00ccff !important;
+    font-size: 30px !important;
+    font-weight: 600;
+    margin-bottom: 40px !important;
+    text-shadow: #d400d4 2px 2px 4px;
+}
+button {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation: change 2.5s alternate infinite ease;
+    font-size: 30px !important;
+    padding: 10px 30px;
+    border-radius: 15px !important;
+    transition: all 1.5s;
+    background-color: #d400d4 !important;
+    border: #00ccff  3px solid;
+    color: white !important;
+}
+@keyframes change {
+    0% {
+        transform: rotate(1deg);
+    }
+    25% {
+        transform: rotate(-1deg);
+    }
+    50% {
+        transform: rotate(1deg);
+    }
+    75% {
+        transform: rotate(-1deg);
+    }
+    100% {
+        transform: rotate(1deg);
+    }
+}
+.p2 {
+    color: #d400d4 !important;
+    font-size: 30px !important;
+    font-weight: 600;
+}
+#fristQuote {
+    color: #d400d4 !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+    text-shadow: #00ccff 1px 1px 4px;
+}
+.author {
+    color: #00ccff !important;
+    font-size: 30px !important;
+    font-weight: 700 !important;
+    text-transform: capitalize;
+    text-shadow: #d400d4 2px 2px 4px;
+}
